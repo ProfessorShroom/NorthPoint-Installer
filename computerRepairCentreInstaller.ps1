@@ -1,4 +1,4 @@
-## -- Copyright (c) Charlie Howard 2024 All rights reserved
+## -- Copyright (c) Charlie Howard 2025 All rights reserved
 
 
 ## -- Download files
@@ -397,7 +397,7 @@ function computerRepairCentreInstaller {
 		$processRunspace.Open()
 		$processRunspace.SessionStateProxy.SetVariable("syncHash",$syncHash)
 		$psCmd = [powershell]::Create().AddScript({
-				$syncHash.progress.Items.Add("Last updated: 27th of November 2024.")
+				$syncHash.progress.Items.Add("Last updated: 5th of July 2025.")
 				$syncHash.progress.SelectedIndex = $syncHash.progress.Items.Count - 1;
 				$syncHash.progress.SelectedIndex = -1;
 				$syncHash.progress.Items.Add("There is now a new version of the installer, please download it below.")
@@ -2168,7 +2168,7 @@ function computerRepairCentreInstaller {
 
 	$version.Location = New-Object System.Drawing.Size(14,258)
 	$version.Size = New-Object System.Drawing.Size(250,20)
-	$version.Text = "Version 5.2024.11.27.0"
+	$version.Text = "Version 5.2025.07.05.0"
 	$crcInstaller.Controls.Add($version)
 
 
@@ -2189,7 +2189,7 @@ function computerRepairCentreInstaller {
 	$version6.LinkColor = "WHITE"
 	$version6.ActiveLinkColor = "RED"
 	$version6.Text = "Version 6"
-	$version6.add_Click({[system.Diagnostics.Process]::start("https://github.com/charliehoward/PlutoPoint-Installer/blob/main/Computer%20Repair%20Centre%20Installer%20Launcher.exe")})
+	$version6.add_Click({[system.Diagnostics.Process]::start("https://professorshroom.com/northpoint-installer-repo")})
 	$crcInstaller.Controls.Add($version6)
 
 
