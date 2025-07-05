@@ -1,6 +1,6 @@
 [![built-in-PowerShell](https://img.shields.io/badge/Built%20in-PowerShell-blue)](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.2) ![winget](https://img.shields.io/badge/Powered%20by-Winget-blue) ![Arch](https://img.shields.io/badge/Arch-x86%20|%20AMD64-blue) ![OS](https://img.shields.io/badge/OS-Windows%2010%20|%20Windows%2011-green)
 
-## NorthPoint Installer Version 5.2025.07.05.0
+## NorthPoint Installer Version 5.2025.07.05.1
 ###### Copyright (c) Charlie Howard 2025 All rights reserved.
 
 [Version 6 now released.](https://github.com/charliehoward/PlutoPoint-Installer)
@@ -20,6 +20,10 @@ Sets the default browser to either Google Chrome or Mozilla Firefox depending on
 Disables sleep and screen timeout if plugged into AC power during the install and then revert it once it has completed to prevent the computer going to sleep during the install which can cause issues, you also get the option to prevent sleep on AC power permanently with the "Refurb" box.
 
 ### Changelog
+
+**Update 5.2025.07.05.1**
+
+Updated multiple download URL's in scripts.
 
 **Update 5.2025.07.05.0**
 

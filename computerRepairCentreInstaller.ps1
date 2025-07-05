@@ -7,7 +7,7 @@ New-Item -Path "C:\Computer Repair Centre\" -Name "icons" -ItemType Directory
 New-Item -Path "C:\Computer Repair Centre\" -Name "scripts" -ItemType Directory
 New-Item -Path "C:\Computer Repair Centre\" -Name "sounds" -ItemType Directory
 New-Item -Path "C:\Computer Repair Centre\" -Name "apps" -ItemType Directory
-$computerRepairCentreIconURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/computerRepairCentreIcon.ico"
+$computerRepairCentreIconURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/computerRepairCentreIcon.ico"
 $computerRepairCentreIconPath = "C:\Computer Repair Centre\icons\computerRepairCentreIcon.ico"
 $seconds = Get-Date -Format ss
 Invoke-RestMethod -Uri $computerRepairCentreIconURL -OutFile $computerRepairCentreIconPath
@@ -51,68 +51,68 @@ function download {
 	$processRunspace.Open()
 	$processRunspace.SessionStateProxy.SetVariable("syncHash",$syncHash)
 	$psCmd = [powershell]::Create().AddScript({
-			$computerRepairCentreOEMURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/computerRepairCentre/computerRepairCentreOEM.bmp"
+			$computerRepairCentreOEMURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/computerRepairCentre/computerRepairCentreOEM.bmp"
 			$computerRepairCentreOEMPath = "C:\Computer Repair Centre\computerRepairCentreOEM.bmp"
-			$googleChromeURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/googleChrome.ico"
+			$googleChromeURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/googleChrome.ico"
 			$googleChromePath = "C:\Computer Repair Centre\icons\googleChrome.ico"
-			$kasperskyStandardURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/kasperskyStandard.ico"
+			$kasperskyStandardURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/kasperskyStandard.ico"
 			$kasperskyStandardPath = "C:\Computer Repair Centre\icons\kasperskyStandard.ico"
-			$libreOfficeURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/libreOffice.ico"
+			$libreOfficeURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/libreOffice.ico"
 			$libreOfficePath = "C:\Computer Repair Centre\icons\libreOffice.ico"
-			$microsoftOffice2007URL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/microsoftOffice2007.ico"
+			$microsoftOffice2007URL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/microsoftOffice2007.ico"
 			$microsoftOffice2007Path = "C:\Computer Repair Centre\icons\microsoftOffice2007.ico"
-			$mozillaFirefoxURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/mozillaFirefox.ico"
+			$mozillaFirefoxURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/mozillaFirefox.ico"
 			$mozillaFirefoxPath = "C:\Computer Repair Centre\icons\mozillaFirefox.ico"
-			$mozillaThunderbirdURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/mozillaThunderbird.ico"
+			$mozillaThunderbirdURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/mozillaThunderbird.ico"
 			$mozillaThunderbirdPath = "C:\Computer Repair Centre\icons\mozillaThunderbird.ico"
-			$skypeURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/skype.ico"
+			$skypeURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/skype.ico"
 			$skypePath = "C:\Computer Repair Centre\icons\skype.ico"
-			$bitDefenderURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/bitDefender.ico"
+			$bitDefenderURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/bitDefender.ico"
 			$bitDefenderPath = "C:\Computer Repair Centre\icons\bitDefender.ico"
-			$anyDeskURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/anyDesk.ico"
+			$anyDeskURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/anyDesk.ico"
 			$anyDeskPath = "C:\Computer Repair Centre\icons\anyDesk.ico"
-			$malwareBytesURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/malwareBytes.ico"
+			$malwareBytesURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/malwareBytes.ico"
 			$malwareBytesPath = "C:\Computer Repair Centre\icons\malwareBytes.ico"
-			$vlcMediaPlayerURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/vlcMediaPlayer.ico"
+			$vlcMediaPlayerURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/vlcMediaPlayer.ico"
 			$vlcMediaPlayerPath = "C:\Computer Repair Centre\icons\vlcMediaPlayer.ico"
-			$bingURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/bing.ico"
+			$bingURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/bing.ico"
 			$bingPath = "C:\Computer Repair Centre\icons\bing.ico"
-			$darkModeURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/darkMode.ico"
+			$darkModeURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/darkMode.ico"
 			$darkModePath = "C:\Computer Repair Centre\icons\darkMode.ico"
-			$deleteFilesURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/scripts/deleteFiles.ps1"
+			$deleteFilesURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/scripts/deleteFiles.ps1"
 			$deleteFilesPath = "C:\Computer Repair Centre\scripts\deleteFiles.ps1"
-			$deleteFilesTaskURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/scripts/deleteFilesTask.ps1"
+			$deleteFilesTaskURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/scripts/deleteFilesTask.ps1"
 			$deleteFilesTaskPath = "C:\Computer Repair Centre\scripts\deleteFilesTask.ps1"
-			$zoomURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/zoom.ico"
+			$zoomURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/zoom.ico"
 			$zoomPath = "C:\Computer Repair Centre\icons\zoom.ico"
-			$discordURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/discord.ico"
+			$discordURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/discord.ico"
 			$discordPath = "C:\Computer Repair Centre\icons\discord.ico"
-			$steamURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/steam.ico"
+			$steamURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/steam.ico"
 			$steamPath = "C:\Computer Repair Centre\icons\steam.ico"
-			$restartURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/restart.ico"
+			$restartURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/restart.ico"
 			$restartPath = "C:\Computer Repair Centre\icons\restart.ico"
-			$powerURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/power.ico"
+			$powerURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/power.ico"
 			$powerPath = "C:\Computer Repair Centre\icons\power.ico"
-			$chandlersFordURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/chandlersFord.ico"
+			$chandlersFordURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/chandlersFord.ico"
 			$chandlersFordPath = "C:\Computer Repair Centre\icons\chandlersFord.ico"
-			$romseyURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/romsey.ico"
+			$romseyURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/romsey.ico"
 			$romseyPath = "C:\Computer Repair Centre\icons\romsey.ico"
-			$highcliffeURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/highcliffe.ico"
+			$highcliffeURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/highcliffe.ico"
 			$highcliffePath = "C:\Computer Repair Centre\icons\highcliffe.ico"
-			$HPURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/icons/HP.ico"
+			$HPURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/icons/HP.ico"
 			$HPPath = "C:\Computer Repair Centre\icons\HP.ico"
-			$completeSongURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/sounds/win98shutdown.mp3"
+			$completeSongURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/sounds/win98shutdown.mp3"
 			$completeSongPath = "C:\Computer Repair Centre\sounds\complete.mp3"
 			if ($syncHash.christmas -like '*1*') {
-				$completeSongURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/sounds/christmas.mp3"
+				$completeSongURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/sounds/christmas.mp3"
 				$completeSongPath = "C:\Computer Repair Centre\sounds\complete.mp3"
 			}
 			elseif ($syncHash.halloween -like '*1*') {
-				$completeSongURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/sounds/halloween.mp3"
+				$completeSongURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/sounds/halloween.mp3"
 				$completeSongPath = "C:\Computer Repair Centre\sounds\complete.mp3"
 			}
 			elseif ($syncHash.birthday -like '*1*') {
-				$completeSongURL = "https://github.com/charliehoward/NorthPoint-Installer/raw/master/assets/sounds/birthday.mp3"
+				$completeSongURL = "https://github.com/professorshroom/NorthPoint-Installer/raw/master/assets/sounds/birthday.mp3"
 				$completeSongPath = "C:\Computer Repair Centre\sounds\complete.mp3"
 			}
 			Invoke-RestMethod -Uri $computerRepairCentreIconURL -OutFile $computerRepairCentreIconPath
@@ -2168,7 +2168,7 @@ function computerRepairCentreInstaller {
 
 	$version.Location = New-Object System.Drawing.Size(14,258)
 	$version.Size = New-Object System.Drawing.Size(250,20)
-	$version.Text = "Version 5.2025.07.05.0"
+	$version.Text = "Version 5.2025.07.05.1"
 	$crcInstaller.Controls.Add($version)
 
 
@@ -2179,7 +2179,7 @@ function computerRepairCentreInstaller {
 	$changeLog.LinkColor = "WHITE"
 	$changeLog.ActiveLinkColor = "RED"
 	$changeLog.Text = "View Changelog"
-	$changeLog.add_Click({[system.Diagnostics.Process]::start("https://github.com/charliehoward/NorthPoint-Installer/blob/master/README.md")})
+	$changeLog.add_Click({[system.Diagnostics.Process]::start("https://github.com/professorshroom/NorthPoint-Installer/blob/master/README.md")})
 	$crcInstaller.Controls.Add($changeLog)
 
 	## -- Version 6
