@@ -2179,7 +2179,8 @@ function computerRepairCentreInstaller {
 	$changeLog.LinkColor = "WHITE"
 	$changeLog.ActiveLinkColor = "RED"
 	$changeLog.Text = "View Changelog"
-	$changeLog.add_Click({[system.Diagnostics.Process]::start("https://github.com/professorshroom/NorthPoint-Installer/blob/master/README.md")})
+	$changeLog.add_Click({Start-Process "https://professorshroom.com/projects/NorthPoint_Installer/#changelog"})
+
 	$crcInstaller.Controls.Add($changeLog)
 
 	## -- Version 6
