@@ -1,4 +1,4 @@
-## -- Copyright (c) Charlie Howard 2025 All rights reserved
+## -- Copyright (c) Charlie Howard 2026 All rights reserved
 
 
 ## -- Download files
@@ -2168,7 +2168,7 @@ function computerRepairCentreInstaller {
 
 	$version.Location = New-Object System.Drawing.Size(14,258)
 	$version.Size = New-Object System.Drawing.Size(250,20)
-	$version.Text = "Version 5.2025.07.05.1"
+	$version.Text = "Version 5.2026.02.04.0"
 	$crcInstaller.Controls.Add($version)
 
 
