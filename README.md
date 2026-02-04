@@ -21,12 +21,13 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 ### Changelog
 
-**Latest Update**
+#### Latest Update
+
 **Update 5.2026.02.04.0**
 
 - 2026 Copyright.
 
-**Older Updates**
+#### Older Updates
 
 **Update 5.2025.07.05.1**
 
