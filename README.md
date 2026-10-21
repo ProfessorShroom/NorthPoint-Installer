@@ -31,14 +31,18 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 #### Latest Update
 
-**Update 5.2026.02.04.0**
+**Update 5.2026.10.21.0**
 
-- Moved Version/Readme link to [professorshroom.com](https://professorshroom.com)
+- Renamed Version 6 to New Installer Available!
 
 #### Older Updates
 
 <details markdown="1">
 <summary><strong>Version 5.x - The Winget Update</strong></summary>
+
+**Update 5.2026.02.04.0**
+
+- Moved Version/Readme link to [professorshroom.com](https://professorshroom.com)
 
 **Version 5.2025.07.05.1 / 5.2025.07.05.0**
 

@@ -312,7 +312,7 @@ function computerRepairCentreInstaller {
 	$power = New-Object System.Windows.Forms.CheckBox
 	$HP = New-Object System.Windows.Forms.CheckBox
 	$changeLog = New-Object System.Windows.Forms.LinkLabel
-	$version6 = New-Object System.Windows.Forms.LinkLabel
+	$newVersion = New-Object System.Windows.Forms.LinkLabel
 	$version = New-Object System.Windows.Forms.Label
 	$InitialFormWindowState = New-Object System.Windows.Forms.FormWindowState
 	$syncHash = [hashtable]::Synchronized(@{})
@@ -2183,15 +2183,15 @@ function computerRepairCentreInstaller {
 
 	$crcInstaller.Controls.Add($changeLog)
 
-	## -- Version 6
+	## -- New Installer Available!
 
-	$version6.Location = New-Object System.Drawing.Size(450,258)
-	$version6.Size = New-Object System.Drawing.Size(150,20)
-	$version6.LinkColor = "WHITE"
-	$version6.ActiveLinkColor = "RED"
-	$version6.Text = "Version 6"
-	$version6.add_Click({[system.Diagnostics.Process]::start("https://professorshroom.com/northpoint-installer-repo")})
-	$crcInstaller.Controls.Add($version6)
+	$newVersion.Location = New-Object System.Drawing.Size(450,258)
+	$newVersion.Size = New-Object System.Drawing.Size(150,20)
+	$newVersion.LinkColor = "WHITE"
+	$newVersion.ActiveLinkColor = "RED"
+	$newVersion.Text = "New Installer Available!"
+	$newVersion.add_Click({[system.Diagnostics.Process]::start("https://professorshroom.com/projects/PlutoPoint_Installer/")})
+	$crcInstaller.Controls.Add($newVersion)
 
 
 	## -- Form
