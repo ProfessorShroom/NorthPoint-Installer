@@ -2185,7 +2185,7 @@ function computerRepairCentreInstaller {
 
 	## -- New Installer Available!
 
-	$newVersion.Location = New-Object System.Drawing.Size(400,258)
+	$newVersion.Location = New-Object System.Drawing.Size(350,258)
 	$newVersion.Size = New-Object System.Drawing.Size(150,20)
 	$newVersion.LinkColor = "WHITE"
 	$newVersion.ActiveLinkColor = "RED"
