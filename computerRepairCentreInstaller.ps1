@@ -397,7 +397,7 @@ function computerRepairCentreInstaller {
 		$processRunspace.Open()
 		$processRunspace.SessionStateProxy.SetVariable("syncHash",$syncHash)
 		$psCmd = [powershell]::Create().AddScript({
-				$syncHash.progress.Items.Add("Last updated: 5th of July 2025.")
+				$syncHash.progress.Items.Add("Last updated: 21st of October 2026.")
 				$syncHash.progress.SelectedIndex = $syncHash.progress.Items.Count - 1;
 				$syncHash.progress.SelectedIndex = -1;
 				$syncHash.progress.Items.Add("There is now a new version of the installer, please download it below.")
@@ -2168,7 +2168,7 @@ function computerRepairCentreInstaller {
 
 	$version.Location = New-Object System.Drawing.Size(14,258)
 	$version.Size = New-Object System.Drawing.Size(250,20)
-	$version.Text = "Version 5.2026.02.04.0"
+	$version.Text = "Version 5.2026.10.21.0"
 	$crcInstaller.Controls.Add($version)
 
 
