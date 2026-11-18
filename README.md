@@ -31,18 +31,18 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 #### Latest Update
 
-**Update 5.2026.10.21.0**
+**Version 5.2026.10.21.0**
 
-- Renamed Version 6 to New Installer Available!
+- **_5.2026.10.21.0_** Renamed Version 6 to New Installer Available!
 
 #### Older Updates
 
 <details markdown="1">
 <summary><strong>Version 5.x - The Winget Update</strong></summary>
 
-**Update 5.2026.02.04.0**
+**Version 5.2026.02.04.0**
 
-- Moved Version/Readme link to [professorshroom.com](https://professorshroom.com)
+- **_5.2026.02.04.0_** Moved Version/Readme link to [professorshroom.com](https://professorshroom.com)
 
 **Version 5.2025.07.05.1 / 5.2025.07.05.0**
 
@@ -51,17 +51,17 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.11.27.0**
 
-- Removed LibreOffice XML as that was causing LibreOffice to not open.
-- Updated this old version incase Steve is still using it.
+- **_5.2024.11.27.0_** Removed LibreOffice XML as that was causing LibreOffice to not open.
+- **_5.2024.11.27.0_** Updated this old version incase Steve is still using it.
 
 **Version 5.2024.11.08.0**
 
-- [Added notice that there is now a version 6.](https://github.com/charliehoward/PlutoPoint-Installer)
+- **_5.2024.11.08.0_** [Added notice that there is now a version 6.](https://github.com/charliehoward/PlutoPoint-Installer)
 
 **Version 5.2024.11.03.0**
 
-- Moved some scripts to scripts folder.
-- Now sets LibreOffice default file type to Office 2007-2021 (docx, xlsx, etc.).
+- **_5.2024.11.03.0_** Moved some scripts to scripts folder.
+- **_5.2024.11.03.0_** Now sets LibreOffice default file type to Office 2007-2021 (docx, xlsx, etc.).
 
 **Version 5.2024.11.02.4 / 5.2024.11.02.3 / 5.2024.11.02.2 / 5.2024.11.02.1 / 5.2024.11.02.0**
 
@@ -80,8 +80,8 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.10.31.0**
 
-- Made the check for Kaspersky more precise as if run on a system with Kapersky VPN or Kaspersky Password Manager it would skip the installation as it believed Kaspersky was already installed.
-- Readded Microsoft Office 2007, but will extract to the Desktop. Old people.
+- **_5.2024.10.31.0_** Made the check for Kaspersky more precise as if run on a system with Kapersky VPN or Kaspersky Password Manager it would skip the installation as it believed Kaspersky was already installed.
+- **_5.2024.10.31.0_** Readded Microsoft Office 2007, but will extract to the Desktop. Old people.
 
 **Version 5.2024.10.29.6 / 5.2024.10.29.5 / 5.2024.10.29.4 / 5.2024.10.29.3 / 5.2024.10.29.2 / 5.2024.10.29.1 / 5.2024.10.29.0**
 
@@ -100,17 +100,17 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.10.12.0**
 
-- Added birthday colours and sound.
+- **_5.2024.10.12.0_** Added birthday colours and sound.
 
 **Version 5.2024.10.11.0**
 
-- Reduced Halloween to 3 days.
-- Changed Christmas colours to red and white.
+- **_5.2024.10.11.0_** Reduced Halloween to 3 days.
+- **_5.2024.10.11.0_** Changed Christmas colours to red and white.
 
 **Version 5.2024.10.10.0**
 
-- Added completed sound effect once installer is finished.
-- Added task end button to taskbar in Windows 11.
+- **_5.2024.10.10.0_** Added completed sound effect once installer is finished.
+- **_5.2024.10.10.0_** Added task end button to taskbar in Windows 11.
 
 **Version 5.2024.10.07.3 / 5.2024.10.07.2 / 5.2024.10.07.1 / 5.2024.10.07.0**
 
@@ -124,11 +124,11 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.08.09.0**
 
-- Changed website URL's and opening hours in OEM info.
+- **_5.2024.08.09.0_** Changed website URL's and opening hours in OEM info.
 
 **Version 5.2024.05.09.0**
 
-- Will now disable automatic device encryption is run on Windows 11.
+- **_5.2024.05.09.0_** Will now disable automatic device encryption is run on Windows 11.
 
 **Version 5.2024.05.03.1 / 5.2024.05.03.0**
 
@@ -142,16 +142,16 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.04.20.0**
 
-- Removed dash from disabling sleep on AC power.
+- **_5.2024.04.20.0_** Removed dash from disabling sleep on AC power.
 
 **Version 5.2024.04.15.0**
 
-- Updated Chandlers Ford IP.
-- Added manual check for IP in CF and Romsey if the hardlinks aren't working.
+- **_5.2024.04.15.0_** Updated Chandlers Ford IP.
+- **_5.2024.04.15.0_** Added manual check for IP in CF and Romsey if the hardlinks aren't working.
 
 **Version 5.2024.04.02.0**
 
-- Moved the screen and sleep pause to before downloading the prerequisites.
+- **_5.2024.04.02.0_** Moved the screen and sleep pause to before downloading the prerequisites.
 
 **Version 5.2024.03.25.2 / 5.2024.03.25.1 / 5.2024.03.25.0**
 
@@ -161,25 +161,25 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.03.23.0**
 
-- Tried to fix hanging on winget installation.
-- Updated NanaZip.
-- Updated Winget.
+- **_5.2024.03.23.0_** Tried to fix hanging on winget installation.
+- **_5.2024.03.23.0_** Updated NanaZip.
+- **_5.2024.03.23.0_** Updated Winget.
 
 **Version 5.2024.03.22.0**
 
-- Updated LibreOffice on the server as the link no longer exists on their site. Tried to fix occasional hanging.
+- **_5.2024.03.22.0_** Updated LibreOffice on the server as the link no longer exists on their site. Tried to fix occasional hanging.
 
 **Version 5.2024.02.29.0**
 
-- If run on Windows 11 the taskbar will be aligned to the left like in Windows 10.
+- **_5.2024.02.29.0_** If run on Windows 11 the taskbar will be aligned to the left like in Windows 10.
 
 **Version 5.2024.02.7.0**
 
-- Tried to fix Google Chrome installation from failing on the first attempt.
+- **_5.2024.02.7.0_** Tried to fix Google Chrome installation from failing on the first attempt.
 
 **Version 5.2024.01.20.0**
 
-- Forget to add download for the refurb icon.
+- **_5.2024.01.20.0_** Forget to add download for the refurb icon.
 
 **Version 5.2024.01.19.1 / 5.2024.01.19.0**
 
@@ -188,7 +188,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2024.01.13.0**
 
-- Removed old apps from initial download.
+- **_5.2024.01.13.0_** Removed old apps from initial download.
 
 **Version 5.2024.01.03.3 / 5.2024.01.03.2 / 5.2024.01.03.1 / 5.2024.01.03.0**
 
@@ -204,11 +204,11 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2023.11.03.0**
 
-- Any log files will be removed before creating a new one just incase the installer is run more than once. Correctly this time.
+- **_5.2023.11.03.0_** Any log files will be removed before creating a new one just incase the installer is run more than once. Correctly this time.
 
 **Version 5.2023.10.27.0**
 
-- Buttons weren't Halloweeny enough.
+- **_5.2023.10.27.0_** Buttons weren't Halloweeny enough.
 
 **Version 5.2023.10.20.2 / 5.2023.10.20.1 / 5.2023.10.20.0**
 
@@ -240,7 +240,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2023.10.09.0**
 
-- Update winget ID as it was changed in the latest update.
+- **_5.2023.10.09.0_** Update winget ID as it was changed in the latest update.
 
 **Version 5.2023.10.03.1 / 5.2023.10.03.0**
 
@@ -290,24 +290,24 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 5.2023.04.29.0**
 
-- If AnyDesk is selected then TeamViewer will also be removed so this can run on already installed machines to switch to AnyDesk.
+- **_5.2023.04.29.0_** If AnyDesk is selected then TeamViewer will also be removed so this can run on already installed machines to switch to AnyDesk.
 
 **Version 5.2023.04.21.0**
 
-- Added AnyDesk and disabled TeamViewer from being selected by default.
+- **_5.2023.04.21.0_** Added AnyDesk and disabled TeamViewer from being selected by default.
 
 **Version 5.2023.03.10.0**
 
-- The installer will now update the Windows Store for Windows 11 as well as 10 because Adam is forgetful.
+- **_5.2023.03.10.0_** The installer will now update the Windows Store for Windows 11 as well as 10 because Adam is forgetful.
 
 **Version 5.2023.02.16.0**
 
-- Changed restart box icon as I don't think anyone knew what it was for.
-- Changed this years Christmas song.
+- **_5.2023.02.16.0_** Changed restart box icon as I don't think anyone knew what it was for.
+- **_5.2023.02.16.0_** Changed this years Christmas song.
 
 **Version 5.2023.01.31.0**
 
-- Added Kaspersky Standard to installer as a proper install.
+- **_5.2023.01.31.0_** Added Kaspersky Standard to installer as a proper install.
 
 **Version 5.2023.01.30.3 / 5.2023.01.30.2 / 5.2023.01.30.1 / 5.2023.01.30.0**
 
@@ -386,24 +386,24 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 4.2022.10.11.0**
 
-- Updated domains for IP check.
+- **_4.2022.10.11.0_** Updated domains for IP check.
 
 **Version 4.2022.10.05.0**
 
-- Stopped Office 2019 from installing on Windows 11.
-- Added Office 2021.
+- **_4.2022.10.05.0_** Stopped Office 2019 from installing on Windows 11.
+- **_4.2022.10.05.0_** Added Office 2021.
 
 **Version 4.2022.09.24.0**
 
-- Added Highcliffe phone number.
+- **_4.2022.09.24.0_** Added Highcliffe phone number.
 
 **Version 4.2022.09.17.0**
 
-- Attempted to fix monitor and standby timeouts not changing.
+- **_4.2022.09.17.0_** Attempted to fix monitor and standby timeouts not changing.
 
 **Version 4.2022.09.14.0**
 
-- Added known Highcliffe details, still awaiting phone number.
+- **_4.2022.09.14.0_** Added known Highcliffe details, still awaiting phone number.
 
 **Version 4.2022.09.10.4 / 4.2022.09.10.3 / 4.2022.09.10.2 / 4.2022.09.10.1 / 4.2022.09.10.0**
 
@@ -415,7 +415,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 4.2022.09.09.0**
 
-- Added HP Hotkey Support for HP EliteBooks as Steve can't install it.
+- **_4.2022.09.09.0_** Added HP Hotkey Support for HP EliteBooks as Steve can't install it.
 
 **Version 4.2022.09.07.1 / 4.2022.09.07.0**
 
@@ -426,7 +426,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 4.2022.08.04.0**
 
-- Moved Office 2007 & Kaspersky files to BRM/FFITR domain for faster download speeds.
+- **_4.2022.08.04.0_** Moved Office 2007 & Kaspersky files to BRM/FFITR domain for faster download speeds.
 
 **Version 4.2022.07.21.2 / 4.2022.07.21.1 / 4.2022.07.21.0**
 
@@ -472,14 +472,14 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.2022.07.01.0**
 
-- The installer will now check if a program is already installed before running the install command to speed up the installs on machines it has been run on previously.
-- Cleaned up Office 2019 install.
-- Added Desktop icons for Office 2007 and 2019 installs.
-- Attemped to fix progress bar but it might need some further tweaks to get the progress point correct.
+- **_3.2022.07.01.0_** The installer will now check if a program is already installed before running the install command to speed up the installs on machines it has been run on previously.
+- **_3.2022.07.01.0_** Cleaned up Office 2019 install.
+- **_3.2022.07.01.0_** Added Desktop icons for Office 2007 and 2019 installs.
+- **_3.2022.07.01.0_** Attemped to fix progress bar but it might need some further tweaks to get the progress point correct.
 
 **Version 3.2022.05.22.0**
 
-- Updated IP checker to check for Romsey IP instead of Chandler's Ford as the IP doesn't have to be update periodically.
+- **_3.2022.05.22.0_** Updated IP checker to check for Romsey IP instead of Chandler's Ford as the IP doesn't have to be update periodically.
 
 **Version 3.2022.05.19.1 / 3.2022.05.19.0**
 
@@ -502,12 +502,12 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.2021.10.26.0**
 
-- Added HashTab to prerequisites for convenience.
+- **_3.2021.10.26.0_** Added HashTab to prerequisites for convenience.
 
 **Version 3.2021.10.25.0**
 
-- Changed version format to keep track of when it was updated easier.
-- Added 4K support to Bing Wallpapers.
+- **_3.2021.10.25.0_** Changed version format to keep track of when it was updated easier.
+- **_3.2021.10.25.0_** Added 4K support to Bing Wallpapers.
 
 **Version 3.10.12.9 / 3.10.12.8 / 3.10.12.7 / 3.10.12.6 / 3.10.12.5 / 3.10.12.4 / 3.10.12.3 / 3.10.12.2 / 3.10.12.1 / 3.10.12.0**
 
@@ -533,17 +533,17 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.10.10.0**
 
-- Fixed Kaspersky mailing list issue.
-- Installer will now check software MD5 checksums before installation.
-- Added initial support for Windows 11.
-- Installer now installs Microsoft Visual C++ Redistributable as part of the prerequisites.
-- Added Teams as an install option.
-- Removed some Windows 10 tweaks to make it run nicer for the end user.
-- Added Windows 11 tweaks to match Windows 10. More to come later on release.
+- **_3.10.10.0_** Fixed Kaspersky mailing list issue.
+- **_3.10.10.0_** Installer will now check software MD5 checksums before installation.
+- **_3.10.10.0_** Added initial support for Windows 11.
+- **_3.10.10.0_** Installer now installs Microsoft Visual C++ Redistributable as part of the prerequisites.
+- **_3.10.10.0_** Added Teams as an install option.
+- **_3.10.10.0_** Removed some Windows 10 tweaks to make it run nicer for the end user.
+- **_3.10.10.0_** Added Windows 11 tweaks to match Windows 10. More to come later on release.
 
 **Version 3.10.9.0**
 
-- Updated Kaspersky Internet Security.
+- **_3.10.9.0_** Updated Kaspersky Internet Security.
 
 **Version 3.10.8.2 / 3.10.8.1 / 3.10.8.0**
 
@@ -558,11 +558,11 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.10.6.0**
 
-- Bing Wallpapers task will now run at 1AM incase user leaves the device on and will run at earliest opportunity if not.
+- **_3.10.6.0_** Bing Wallpapers task will now run at 1AM incase user leaves the device on and will run at earliest opportunity if not.
 
 **Version 3.10.5.0**
 
-- Installer will now delete leftover files on next startup.
+- **_3.10.5.0_** Installer will now delete leftover files on next startup.
 
 **Version 3.10.4.1 / 3.10.4.0**
 
@@ -572,12 +572,12 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.10.3.0**
 
-- Bing Wallpapers now saves the C Drive instead of the Pictures folder to allow slideslow mode.
-- Bing Wallpapers will no longer override user selected wallpapers.
+- **_3.10.3.0_** Bing Wallpapers now saves the C Drive instead of the Pictures folder to allow slideslow mode.
+- **_3.10.3.0_** Bing Wallpapers will no longer override user selected wallpapers.
 
 **Version 3.10.2.0**
 
-- Installer will now remove Kaspersky VPN after installing Kaspersky Internet Security.
+- **_3.10.2.0_** Installer will now remove Kaspersky VPN after installing Kaspersky Internet Security.
 
 **Version 3.10.1.4 / 3.10.1.3 / 3.10.1.2 / 3.10.1.1 / 3.10.1.0**
 
@@ -612,8 +612,8 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.8.0.0**
 
-- Added a reboot box that if checked will reboot the computer once the installer has finished, with a 30 second delay so the user can cancel if required.
-- Added a countdown timer to the reboot button if a reboot is pending to show user how much time they have until the compuer is rebooted.
+- **_3.8.0.0_** Added a reboot box that if checked will reboot the computer once the installer has finished, with a 30 second delay so the user can cancel if required.
+- **_3.8.0.0_** Added a countdown timer to the reboot button if a reboot is pending to show user how much time they have until the compuer is rebooted.
 
 **Version 3.7.2.1 / 3.7.2.0**
 
@@ -635,11 +635,11 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.6.2.0**
 
-- Microsoft Office 2019 should now automatically activate.
+- **_3.6.2.0_** Microsoft Office 2019 should now automatically activate.
 
 **Version 3.6.1.0**
 
-- Updated multiple icons.
+- **_3.6.1.0_** Updated multiple icons.
 
 **Version 3.6.0.2 / 3.6.0.1 / 3.6.0.0**
 
@@ -649,7 +649,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.5.5.0**
 
-- Installer now enables the Action Centre and toast notifications.
+- **_3.5.5.0_** Installer now enables the Action Centre and toast notifications.
 
 **Version 3.5.4.2 / 3.5.4.1 / 3.5.4.0**
 
@@ -665,11 +665,11 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.5.2.0**
 
-- Added more wallpapers so installer with now randomly pick between two different wallpapers sets. Can easily add more in the future.
+- **_3.5.2.0_** Added more wallpapers so installer with now randomly pick between two different wallpapers sets. Can easily add more in the future.
 
 **Version 3.5.1.0**
 
-- Added Chocolatey to the prerequisites and stopped disabling monitor timeout on Windows 10 as it wasn't working.
+- **_3.5.1.0_** Added Chocolatey to the prerequisites and stopped disabling monitor timeout on Windows 10 as it wasn't working.
 
 **Version 3.5.0.4 / 3.5.0.3 / 3.5.0.2 / 3.5.0.1 / 3.5.0.0**
 
@@ -701,7 +701,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.3.4.0**
 
-- Updated Firefox logo.
+- **_3.3.4.0_** Updated Firefox logo.
 
 **Version 3.3.3.1 / 3.3.3.0**
 
@@ -710,7 +710,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.3.2.0**
 
-- Fixed issue with LibreOffice not installing correctly.
+- **_3.3.2.0_** Fixed issue with LibreOffice not installing correctly.
 
 **Version 3.3.1.2 / 3.3.1.1 / 3.3.1.0**
 
@@ -720,9 +720,9 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.3.0.0**
 
-- Fixed Google Chrome and Mozilla Firefox uBlock Origin installs with the new version of Windows 1903.
-- Temporarily disabled taskbar pining until a new solution is found for Windows 1903.
-- Moved night mode to its own check box so it can be disabled. Fixed theme for Windows 1903.
+- **_3.3.0.0_** Fixed Google Chrome and Mozilla Firefox uBlock Origin installs with the new version of Windows 1903.
+- **_3.3.0.0_** Temporarily disabled taskbar pining until a new solution is found for Windows 1903.
+- **_3.3.0.0_** Moved night mode to its own check box so it can be disabled. Fixed theme for Windows 1903.
 
 **Version 3.2.2.2 / 3.2.2.1 / 3.2.2.0**
 
@@ -733,7 +733,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.2.1.0**
 
-- Added birthday easter egg.
+- **_3.2.1.0_** Added birthday easter egg.
 
 **Version 3.2.0.2 / 3.2.0.1 / 3.2.0.0**
 
@@ -743,7 +743,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.1.0.0**
 
-- The installer is now multithreaded so the GUI uses one thread and the script uses another. This speeds it up and also stops the GUI from freezing while the script is in progress. Also added am adaptive progress bar to show much progress is left.
+- **_3.1.0.0_** The installer is now multithreaded so the GUI uses one thread and the script uses another. This speeds it up and also stops the GUI from freezing while the script is in progress. Also added am adaptive progress bar to show much progress is left.
 
 **Version 3.0.9.11 / 3.0.9.10 / 3.0.9.9**
 
@@ -808,7 +808,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 3.0.3.0**
 
-- Added Skype as install option.
+- **_3.0.3.0_** Added Skype as install option.
 
 **Version 3.0.2.2 / 3.0.2.1 / 3.0.2.0**
 
@@ -833,7 +833,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 2.6.0**
 
-- Now unistalls Kaspersky Secure Connection after installing Kaspersky Internet Security 2019.
+- **_2.6.0_** Now unistalls Kaspersky Secure Connection after installing Kaspersky Internet Security 2019.
 
 **Version 2.5.2 / 2.5.1 / 2.5.0**
 
@@ -923,7 +923,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 1.6.0**
 
-- Made command line invisible for sleaker look.
+- **_1.6.0_** Made command line invisible for sleaker look.
 
 **Version 1.5.6 / 1.5.5 / 1.5.4 / 1.5.3 / 1.5.2 / 1.5.1 / 1.5.0**
 
@@ -942,7 +942,7 @@ Disables sleep and screen timeout if plugged into AC power during the install an
 
 **Version 1.3.0**
 
-- Renamed to CRC Installer and added new Romsey version.
+- **_1.3.0_** Renamed to CRC Installer and added new Romsey version.
 
 **Version 1.2.1 / 1.2.0**
 
