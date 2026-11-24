@@ -1,8 +1,8 @@
 name: Notify Website of README Change
 
-# Tells professorshroom.github.io to re-sync this README and redeploy.
+# Tells professorshroom.com to re-sync this README and redeploy.
 # Needs the WEBSITE_DISPATCH_TOKEN secret: a fine-grained PAT with
-# Contents: read & write on ProfessorShroom/professorshroom.github.io.
+# Contents: read & write on ProfessorShroom/professorshroom.com.
 
 on:
   push:
@@ -19,6 +19,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
         run: |
-          gh api repos/ProfessorShroom/professorshroom.github.io/dispatches \
+          gh api repos/ProfessorShroom/professorshroom.com/dispatches \
             -f event_type=readme-updated \
             -f "client_payload[repo]=${{ github.repository }}"
